@@ -1,4 +1,6 @@
-// Add item to an object
+/**
+ * Add item to an object
+ */
 const city = undefined;
 
 const person = {
@@ -12,7 +14,9 @@ console.log(Object.keys(person));
 // [ 'name' ]
 
 
-// SetTimeout in a better way
+/**
+ * SetTimeout in a better way
+ */
 function wait() {
   return new Promise((resolve) => {
      setTimeout(resolve, 1000);
@@ -25,7 +29,9 @@ async function log() {
 }
 
 
-// Copy an array in different ways:
+/**
+ * Copy an array in different ways:
+ */
 const orig_array = [1, 2, 3];
 
 const copied_array = [...orig_array]; // spread operator
@@ -36,12 +42,16 @@ console.log(copied_array);
 // [1, 2, 3]
 
 
-// Array to Object (a better way)
+/**
+ * Array to Object (a better way)
+ */
 let arr = ['val1', 'val2', 'val3'];
 let arrObject = { ...arr };
 
 
-// Short cirtuit conditionals
+/**
+ * Short cirtuit conditionals
+ */
 // simple way:
 if (online) {
   getData();
@@ -50,7 +60,9 @@ if (online) {
 online && getData();
 
 
-// Ternary operator
+/**
+ * Ternary operator
+ */
 // instead of this:
 let hungry = true;
 let eat;
